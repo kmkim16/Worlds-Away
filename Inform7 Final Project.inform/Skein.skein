@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x9998dc0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x9998dc0" />
+  <item nodeId="node-0x9998dc0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+You&apos;re trapped in an empty, white room with no doors. You can&apos;t remember how you got here or why you are here now, but just thinking about it gives you a huge headache.
+
+Worlds Away - Inform7 Final Project
+An Interactive Fiction by kmkim16
+Release 1 / Serial number 140214 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+White Room
+It is a white room, but when you look up at the ceiling you see a glass window.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+  </item>
+</Skein>
