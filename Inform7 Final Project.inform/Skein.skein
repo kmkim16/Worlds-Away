@@ -1,35 +1,85 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x18b0390" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x94bdd20" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x18b0390" />
-  <item nodeId="node-0x18b0390">
+  <activeNode nodeId="node-0x94bdd20" />
+  <item nodeId="node-0x94bdd20">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 
-You wake up on the floor in an unfamilar place… Well, you think it is unfamiliar. You can&apos;t seem remember your name or how you got here, but frankly just thinking about it gives you a huge headache. You don&apos;t think you are injured, but you feel groggy and a bit hungry. Where are you?
+Your name is Dirk Strider. You just woke up from a nice nap. You find yourself inside of your single room abode. It&apos;s nice. But small. Things, contraptions, inventions of yours are cluttered around the place.
 
 Worlds Away - Inform7 Final Project
 An Interactive Fiction by kmkim16
-Release 1 / Serial number 140219 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 140221 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 White Room
-You wake up in an empty, white room with no doors. A large fan gently blows wind upwards creating a soft humming. A wind tunnel, perhaps?
-
-You can see a contraption here.
+You wake up in an empty, white room with no doors. A large fan A wind tunnel, perhaps? Soshite, Roboto wa offu desuu.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="5">NO</temporary>
+    <temporary score="24">NO</temporary>
     <children>
-      <child nodeId="node-0x18b0610" />
-      <child nodeId="node-0x18b05c0" />
-      <child nodeId="node-0x18b0420" />
+      <child nodeId="node-0x11c81570" />
+      <child nodeId="node-0xe310870" />
+      <child nodeId="node-0x94bddb0" />
+      <child nodeId="node-0x94bde70" />
+      <child nodeId="node-0x94bde00" />
+      <child nodeId="node-0x949cbf0" />
     </children>
   </item>
-  <item nodeId="node-0x18b0420">
+  <item nodeId="node-0x949cbf0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x11c922c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11c922c0">
+    <command xml:space="preserve">x robot</command>
+    <result xml:space="preserve">^_^
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+  </item>
+  <item nodeId="node-0x94bde00">
+    <command xml:space="preserve">x blowtorch</command>
+    <result xml:space="preserve">A portal gun? pew pew
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0x94bde70">
+    <command xml:space="preserve">x thingy</command>
+    <result xml:space="preserve">A portal gun? pew pew
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0x94aa2b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x94aa2b0">
+    <command xml:space="preserve">take portal gun</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0x94bddb0">
     <command xml:space="preserve">x contraption</command>
     <result xml:space="preserve">bloop contraption portal-y thing whoop.
 
@@ -38,32 +88,156 @@ You can see a contraption here.
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
   </item>
-  <item nodeId="node-0x18b05c0">
-    <command xml:space="preserve">x blowtorch</command>
-    <result xml:space="preserve">A portal gun? pew pew
+  <item nodeId="node-0xe310870">
+    <command xml:space="preserve">x robot</command>
+    <result xml:space="preserve">（。-＿-。）.
+
+Robot is currently switched off.
+
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
-  </item>
-  <item nodeId="node-0x18b0610">
-    <command xml:space="preserve">x thingy</command>
-    <result xml:space="preserve">A portal gun? pew pew
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x18b06c0" />
+      <child nodeId="node-0xe3c15a0" />
+      <child nodeId="node-0xd6e7040" />
     </children>
   </item>
-  <item nodeId="node-0x18b06c0">
-    <command xml:space="preserve">take portal gun</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+  <item nodeId="node-0xd6e7040">
+    <command xml:space="preserve">turn on robot</command>
+    <result xml:space="preserve">He&apos;s not something you can switch.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="2">YES</temporary>
+    <temporary score="14">YES</temporary>
+  </item>
+  <item nodeId="node-0xe3c15a0">
+    <command xml:space="preserve">turn robot on</command>
+    <result xml:space="preserve">bEEP BOOP. BOOP BEE BOOP. I AM ON, BEECHU.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0xd6613d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd6613d0">
+    <command xml:space="preserve">x robot</command>
+    <result xml:space="preserve">(*ﾟｰﾟ)ゞ
+
+Robot is currently switched off.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+  </item>
+  <item nodeId="node-0x11c81570">
+    <command xml:space="preserve">take fan</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xd685040" />
+    </children>
+  </item>
+  <item nodeId="node-0xd685040">
+    <command xml:space="preserve">shit</command>
+    <result xml:space="preserve">Real adventurers do not use such language.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xc3768a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc3768a0">
+    <command xml:space="preserve">fuck</command>
+    <result xml:space="preserve">Real adventurers do not use such language.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd60260" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd60260">
+    <command xml:space="preserve">:o</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x11c83f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x11c83f70">
+    <command xml:space="preserve">:,(</command>
+    <result xml:space="preserve">You seem to want to talk to someone, but I can&apos;t see whom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x18cfff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18cfff0">
+    <command xml:space="preserve">sleep</command>
+    <result xml:space="preserve">You aren&apos;t feeling especially drowsy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x1ba8700" />
+    </children>
+  </item>
+  <item nodeId="node-0x1ba8700">
+    <command xml:space="preserve">why noootttt</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xd661870" />
+    </children>
+  </item>
+  <item nodeId="node-0xd661870">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b08a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b08a80">
+    <command xml:space="preserve">yeah you better beg for my pardon</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
   </item>
 </Skein>
