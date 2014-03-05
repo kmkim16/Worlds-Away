@@ -5,7 +5,7 @@ When play begins: say "You wake up on the floor in an unfamilar place… Well, y
 Use no scoring.
 
 [Rooms]
-White Room is a room. "A white room with no doors and . A large fan gently A wind tunnel, perhaps? Soshite, Roboto wa offu desuu."
+White Room is a room. "A blank, white room with a large fan as a floor. A wind tunnel, perhaps? The fan circulates air upwards. Soshite, Roboto wa offu desuu."
 
 Apartment is a room. "The apartment is"
 
@@ -41,38 +41,35 @@ Before listing nondescript items when the player is in White Room:
 
 Things can be on or off.
 
-Things can be near or distant. Things are usually near.
-
-A thing can be hidden or revealed.
-
 Understand "portal gun" or "gun" as contraption.
 
-A raised supporter is a kind of supporter.
-
-An every turn rule:
-if robot is in fan,
-say "what"
+Definition: robot is inside fan:
+	if robot is in fan, yes;
+	if robot is not in fan, no;
 
 Definition: a contraption is out of reach: 
-	if the player is carrying robot, no; 
-	if the contraption is on a fan, yes;
+	if robot is inside fan, no; 
+	if the contraption is in fan, yes;
 	
 Before taking contraption for the first time: 
 	if the contraption is out of reach: 
-		say "The blade spins by nearly cutting your hand off. jesus. You can't reach the contraption. Maybe you can stop the fan with something" instead.
+		say "The blade spins by nearly cutting your hand off. jesus. You can't reach the contraption. Maybe you can stop the fan with something instead?" instead.
 
 [end Rules]
 
 [Things/Scenery]
-Fan is a raised supporter in White Room. The description of the fan is "A large fan blows, circulating the air. It seem to be a bit dusty, but other than that it's brand new."
 
-contraption is a thing on fan. The description of contraption is "portal gun yo"
+Wall is a backdrop. It is in White Room and Apartment and Saloon and Classroom and Bunker and Art Gallery. 
+
+Fan is a not scenery container in White Room. The description of the fan is "A large fan blows, circulating the air. It seem to be a bit dusty, but other than that it's brand new."
+
+contraption is a thing in fan. The description of contraption is "portal gun yo"
 
 Robot is a device in White Room. It is off. The description is "[If Robot is on](*ﾟｰﾟ)ゞ[end if][if robot is off]（。-＿-。）."
 
 The iron door is scenery in White Room. It is a closed container. It is locked. The description of the iron door is "It looks welded shut. A low knock tells you the door is solid, probably."
 
-Portal is a thing. 
+Portal is an enterable container. 
 
 [end Things/Scenery]
 
@@ -82,11 +79,34 @@ say "bEEP BOOP. BOOP BEE BOOP. I AM ON, WOOHOO!.";
 change robot to on.
 
 Instead of taking contraption for the second time:
-	if player is not carrying robot:
+	if robot is not inside fan:
 		say "You're kind of bleeding now...";
 		end the game in death;
-	if player is carrying robot:
-		say "you;re not bleeding yay! and you have a portal gun. nice."
-		
+	if robot is inside fan:
+		say "you;re not bleeding yay! and you have a portal gun. nice.";
+		move robot to fan;
+
 Instead of opening door:
 	say "no stahp."
+
+Instead of taking fan:
+	say "you can't take the floor silly"
+	
+Instead of entering portal:
+	say "wooshoshoshoshoshooooo";
+	move player to a random room.
+	
+
+[shooty stuffsssss]
+
+Shooting is an action applying to one visible thing. Understand "shoot [something]" as shooting.
+
+Check shooting:
+	If player is carrying contraption:
+		If noun is wall:
+			say "wow u did a thing";
+			move portal to location of player;
+		otherwise:
+			say "u suck" instead;
+	otherwise:
+		say "the frick u doin bub" instead.
