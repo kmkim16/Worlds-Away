@@ -53,7 +53,10 @@ Definition: a contraption is out of reach:
 	
 Before taking contraption for the first time: 
 	if the contraption is out of reach: 
-		say "The blade spins by nearly cutting your hand off. jesus. You can't reach the contraption. Maybe you can stop the fan with something instead?" instead.
+		say "The blade spins by nearly cutting your hand off. jesus. You can't reach the contraption. Maybe you can stop the fan with something instead?" instead;
+	otherwise:
+		say "woo hoo you took the gun and still have your hand" instead;
+		move contraption to player;
 
 [end Rules]
 
@@ -85,6 +88,7 @@ Instead of taking contraption for the second time:
 	if robot is inside fan:
 		say "you;re not bleeding yay! and you have a portal gun. nice.";
 		move robot to fan;
+		move contraption to player;
 
 Instead of opening door:
 	say "no stahp."
@@ -95,7 +99,9 @@ Instead of taking fan:
 Instead of entering portal:
 	say "wooshoshoshoshoshooooo";
 	move player to a random room.
-	
+
+Instead of examining player:
+	say "you are a person"
 
 [shooty stuffsssss]
 
@@ -104,9 +110,10 @@ Shooting is an action applying to one visible thing. Understand "shoot [somethin
 Check shooting:
 	If player is carrying contraption:
 		If noun is wall:
-			say "wow u did a thing";
+			say "pewwww portal appears on wall";
 			move portal to location of player;
 		otherwise:
-			say "u suck" instead;
+			say "you shoot things. but not the wall." instead;
 	otherwise:
-		say "the frick u doin bub" instead.
+		say "you extend your index finger and thumb and point it at the wall. pew. nothing happens." instead.
+
