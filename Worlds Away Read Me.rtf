@@ -1,0 +1,72 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;}
+\margl1440\margr1440\vieww11800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl380
+
+\f0\b\fs24 \cf0 \cb2 Shortest Route Key
+\b0 \
+\
+>take robot\
+>put robot in fan\
+>take contraption\
+>shoot wall with gun\
+>take robot\
+>shoot wall with gun + enter portal until you reach Apartment (or Bunker)\
+>(Apartment) take blankets\
+>take sweater\
+>put sweater on robot\
+>(Bunker) take rations\
+>take backpack\
+>combine backpack with blankets to make parachute\
+>\cb1 shoot wall with gun + enter portal until you reach Work Shop\
+>put robot on circuit board\
+>wear parachute backpack\
+>shoot wall with gun\
+>enter portal\cb2 \
+\
+
+\b How well does the game accomplish what you set out to do?
+\b0 \
+The writing process of making an interactive fiction game was a lot harder than I first anticipated, but I thought my final project was pretty close to what I wanted to accomplish. I think that the writing/plot could have been more developed, but I thought the game mechanics and \
+\
+
+\b Discuss a time when you got stuck, and how you got unstuck.
+\b0 \
+The first time I got stuck working on the final project was the first puzzle. I wanted the player to have to look around, find the portal device, and then have to stop the fan in the room to be able to take it. I was having a problem because inform did not like the verb "putting," so whenever I tried to test with the command "put robot (item needed to stop the fan) in fan" it wouldn't recognize it. The first thing I tried was to add the action, but inform would not allow me to use the "Instead of" command to perform the action. Instead, I coded the fan as a container and \cb1 made the fan unreachable until the robot was inside the fan. I used text to create the effect of the player putting the robot inside the fan blades to stop the fan.\cb2 \
+\
+
+\b Describe each of the required three puzzles in your game and how to solve each puzzle.
+\b0 \
+First Puzzle - Contraption Puzzle:\
+The first puzzle in the game is the contraption puzzle. The player starts out in a room and needs to look for a way out. If you examine the fan, you can see a contraption that is unreachable until you stop the fan. If you attempt to take the contraption without stopping the fan, a message will prompt you to find something to stop the fan. If the player attempts to take the contraption again without stopping the fan, the player will die. You need to take the robot that is laying around the room, and put him in the fan. This enables the player to take the contraption, which is later found out to be a portal-shooting device.\
+Second Puzzle - Find + Combining Puzzle:\
+The second puzzle is more common in interactive fiction games. The "find and combining" puzzle is common, but I added the room randomizer in an attempt to make finding, collecting, and efficiently creating a way out a bit more challenging like a usual puzzle.\
+Third Puzzle - Power Fan Puzzle:\
+The third puzzle is the puzzle where you need to power the fan to send you through the ceiling. The challenge is to use the robot as a power source, but it won't let you unless you put the cat sweater on it.\
+\
+
+\b Discuss the gameplay mechanics in your game and how they improve the user's experience.\
+
+\b0 I thought that the "Randomized Room" mechanic was pretty interesting. I thought that having random rooms every time you shot a portal, increased the difficulty and make traveling from room to room more interesting. I also added different actions and coded text for to make it easier for the player to figure out the command. While the beta testers were playing the game, the "shoot [noun1] with [noun2]" was hard to figure out.\
+\
+
+\b Discuss the beta testing process: Who tested your game?\'a0\cb1 How did their feedback affect your game?\'a0
+\b0 \cb2 \
+I had a few classmates and my younger cousin (14) beta test my game. Cody and Elasia both beta tested my games. Because they are familiar with Inform and IF games, their feedback was more technical. Elasia offered me the suggestion of making the combine puzzle easier, because my original plans required a lot more parts to complete. Cody suggested that I  My cousin has not played an interactive fiction game before, but he plays a lot of games so he caught on to the commands pretty easily. My cousin's testing gave me a perspective from a person new to if games. \
+\
+
+\b Whose game did you beta test?\'a0\cb1 What feedback were you able to give?
+\b0 \cb2 \
+I beta tested Cody's game. Cody was not finished with his game when I tested it, but I was able to give him advice on clearing up some of the aspects that he already had in place. For example, he had a combining puzzle that made you combine alcohol and a cloth to form a torch. I suggested that he added the actions burn and light [noun] and make it more clear from the description that these two objects could be combined. This was one part I had a hard time on. \
+\
+
+\b What are you most proud of?
+\b0 \
+I think I am most proud of the robot NPC. If it is on, I coded it to have 3 different idle phrases that will appear if you are not interacting with it. You need to take the robot to use the portal, so I added the ability to have the robot wear certain things (i.e. sweater).\
+\
+
+\b What would you do differently next time?
+\b0 \
+I would possibly add something like an "Anchor" in each room. For example, the rooms would still be random, but when you exited a room without taking a certain item, the portal would only take you back to that room. I think this would make the game run smoother. I might also add more relevant items to the game. I think that the game is pretty easy, and adding more items, or even puzzles after leaving the lab might make it more interesting. }

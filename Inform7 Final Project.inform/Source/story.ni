@@ -1,4 +1,5 @@
 "Worlds Away - Inform7 Final Project" by kmkim16
+[This project uses the Far Away Extension by Jon Ingold]
 
 When play begins: say "You wake up on the floor in an unfamiliar place… Well, you think it is unfamiliar. You can't seem remember how you got here, but frankly just thinking about it gives you a huge headache. You don't think you are injured, but you feel groggy. …Where are you?"
 
@@ -45,7 +46,7 @@ Before taking contraption for the first time:
 	otherwise:
 		say "You manage to safely retrieve your contraption. Upon closer inspection you note it looks rather similar to a gun. What did this do again?"
 
-Wall is a backdrop. It is in White Room and Apartment and Saloon and Classroom and Bunker and Art Gallery. The description is "The walls of the room are blank"
+Wall is a backdrop. It is in White Room and Apartment and Saloon and Classroom and Bunker and Art Gallery and Work shop. The description is "The walls of the room are blank"
 
 Fan is a scenery container in White Room. It is fixed in place. The description of the fan is "A large fan blows, circulating the air. It seem to be a bit dusty, but other than that it's brand new."
 
@@ -121,8 +122,10 @@ instead of entering portal:
 	if robot is not on circuit board:
 		if robot is not switched on:
 			if robot is not carried by player:
-				say "You can't bear to leave your cute robot friend behind. Maybe turn it on so it can follow you, or pick it up and take it with you?";
+				say "You can't bear to leave your cute robot friend behind. Maybe you should pick it up and take it with you?";
 				stop the action;
+	if robot is on circuit board:
+		move player to White Room;
 	if robot is carried by player:
 		say "You step through the portal into a new room.";
 		move player to random room.
@@ -135,6 +138,15 @@ Sweater is a wearable thing in Apartment. The description is "It's bright. And p
 Bed is a supporter in Apartment. The description is "An average queen sized bed."
 
 Blankets is a thing on bed. The description is "Thin white sheets. It looks pretty light, but very strong."
+
+Instead of putting sweater on robot:
+	if the robot is on:
+		say "The robot beeps happily, cute little guy.";
+		move sweater to robot;
+	otherwise:
+		say "You put the sweater on the robot. Nice and snug!";
+		move sweater to robot.
+
 
 Before listing nondescript items when the player is in Apartment: 
 	if the blankets is marked for listing:
@@ -177,7 +189,7 @@ After putting robot on circuit board:
 		say "it agrees to be plugged into the circuit board. You hook the robot up to the panel and set it down in the indentation. The robot points to 'White Room Fan' and you plug the wires in. A loud woosh sound. The robot's display goes dark as the power is sucked from its batteries into the fan's power source. A loud crash sound. You think the top blew off. I guess it's time to go.";
 		move robot to circuit board;
 	otherwise:
-		say "The robot is still quite mad at you. He refuses to step near the circuit board.";
+		say "The robot is still quite mad at you. He refuses to step near the circuit board. Maybe you can cheer him up somehow? A warm gift of sorts?";
 		stop the action.
 		
 Understand "panel" and "fuse box" and "indentation" as Circuit Board.

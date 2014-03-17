@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1baf270" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x183d3c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1baf270" />
-  <item nodeId="node-0x1baf270">
+  <activeNode nodeId="node-0x183d3c0" />
+  <item nodeId="node-0x183d3c0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 
-You wake up on the floor in an unfamiliar place… Well, you think it is unfamiliar. You can&apos;t seem remember how you got here, but frankly just thinking about it gives you a huge headache. You don&apos;t think you are injured, but you feel groggy. …Where are you?u 
+You wake up on the floor in an unfamiliar place… Well, you think it is unfamiliar. You can&apos;t seem remember how you got here, but frankly just thinking about it gives you a huge headache. You don&apos;t think you are injured, but you feel groggy. …Where are you?bo
 
 Worlds Away - Inform7 Final Project
 An Interactive Fiction by kmkim16
-Release 1 / Serial number 140311 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 140316 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 White Room
 A blank, white room with a large fan as a floor. A wind tunnel, perhaps? The fan circulates air upwards. Something glints beneath the whirling blades. Also, you can see your little robot buddy here. You made it yourself!
@@ -22,7 +22,7 @@ A blank, white room with a large fan as a floor. A wind tunnel, perhaps? The fan
 
 
 
-You wake up on the floor in an unfamiliar place… Well, you think it is unfamiliar. You can&apos;t seem remember your name or how you got here, but frankly just thinking about it gives you a huge headache. You don&apos;t think you are injured, but you feel groggy. …Where are you?u  tin
+You wake up on the floor in an unfamiliar place… Well, you think it is unfamiliar. You can&apos;t seem remember your name or how you got here, but frankly just thinking about it gives you a huge headache. You don&apos;t think you are injured, but you feel groggy. …Where are you?u  tink in
 
 Worlds Away - Inform7 Final Project
 An Interactive Fiction by kmkim16
@@ -33,17 +33,17 @@ A blank, white room with a large fan as a floor. A wind tunnel, perhaps? The fan
 
 &gt;</commentary>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="531">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="53">NO</temporary>
     <children>
-      <child nodeId="node-0x1bb15e0" />
-      <child nodeId="node-0x1bb12d0" />
-      <child nodeId="node-0x1bb0e70" />
-      <child nodeId="node-0x1bafc40" />
-      <child nodeId="node-0x1baf310" />
+      <child nodeId="node-0x6c63a80" />
+      <child nodeId="node-0x6c63770" />
+      <child nodeId="node-0x6c62b90" />
+      <child nodeId="node-0x6c623f0" />
+      <child nodeId="node-0x1bb69a0" />
     </children>
   </item>
-  <item nodeId="node-0x1baf310">
+  <item nodeId="node-0x1bb69a0">
     <command xml:space="preserve">put robot in fan</command>
     <result xml:space="preserve">(first taking Robot)
 
@@ -54,11 +54,11 @@ You put Robot into Fan.
     <changed>NO</changed>
     <temporary score="406">YES</temporary>
     <children>
-      <child nodeId="node-0x1baf870" />
-      <child nodeId="node-0x1baf380" />
+      <child nodeId="node-0x6c62040" />
+      <child nodeId="node-0x183ced0" />
     </children>
   </item>
-  <item nodeId="node-0x1baf380">
+  <item nodeId="node-0x183ced0">
     <command xml:space="preserve">take gun</command>
     <result xml:space="preserve">You manage to safely retrieve your contraption. Upon closer inspection you note it looks rather similar to a gun. What did this do again?
 
@@ -69,10 +69,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="324">YES</temporary>
     <children>
-      <child nodeId="node-0x1baf3f0" />
+      <child nodeId="node-0x183cf20" />
     </children>
   </item>
-  <item nodeId="node-0x1baf3f0">
+  <item nodeId="node-0x183cf20">
     <command xml:space="preserve">take robot</command>
     <result xml:space="preserve">Taken.
 
@@ -81,11 +81,11 @@ Taken.
     <changed>NO</changed>
     <temporary score="324">YES</temporary>
     <children>
-      <child nodeId="node-0x1baf7d0" />
-      <child nodeId="node-0x1baf4a0" />
+      <child nodeId="node-0x6c61fa0" />
+      <child nodeId="node-0x183cf70" />
     </children>
   </item>
-  <item nodeId="node-0x1baf4a0">
+  <item nodeId="node-0x183cf70">
     <command xml:space="preserve">ask for contraption back</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -94,10 +94,10 @@ Taken.
     <changed>YES</changed>
     <temporary score="301">YES</temporary>
     <children>
-      <child nodeId="node-0x1baf670" />
+      <child nodeId="node-0x183cfc0" />
     </children>
   </item>
-  <item nodeId="node-0x1baf670">
+  <item nodeId="node-0x183cfc0">
     <command xml:space="preserve">take contraption</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -106,10 +106,10 @@ Taken.
     <changed>YES</changed>
     <temporary score="301">YES</temporary>
     <children>
-      <child nodeId="node-0x1baf6e0" />
+      <child nodeId="node-0x183d010" />
     </children>
   </item>
-  <item nodeId="node-0x1baf6e0">
+  <item nodeId="node-0x183d010">
     <command xml:space="preserve">x robot</command>
     <result xml:space="preserve">（。-＿-。） OFF.
 
@@ -120,7 +120,7 @@ Robot is currently switched off.
     <changed>YES</changed>
     <temporary score="300">YES</temporary>
   </item>
-  <item nodeId="node-0x1baf7d0">
+  <item nodeId="node-0x6c61fa0">
     <command xml:space="preserve">drop robot</command>
     <result xml:space="preserve">Dropped.
 
@@ -129,10 +129,10 @@ Robot is currently switched off.
     <changed>NO</changed>
     <temporary score="324">YES</temporary>
     <children>
-      <child nodeId="node-0x1baf820" />
+      <child nodeId="node-0x6c61ff0" />
     </children>
   </item>
-  <item nodeId="node-0x1baf820">
+  <item nodeId="node-0x6c61ff0">
     <command xml:space="preserve">shoot wall with gun</command>
     <result xml:space="preserve">With a crackle and pop, a portal splits into the wall, creating a doorway to a new room. You wonder where it leads...
 You can&apos;t even begin to fathom how you would &quot;shoot&quot; with an object like that!
@@ -142,7 +142,7 @@ You can&apos;t even begin to fathom how you would &quot;shoot&quot; with an obje
     <changed>NO</changed>
     <temporary score="323">YES</temporary>
   </item>
-  <item nodeId="node-0x1baf870">
+  <item nodeId="node-0x6c62040">
     <command xml:space="preserve">take contraption</command>
     <result xml:space="preserve">You manage to safely retrieve your contraption. Upon closer inspection you note it looks rather similar to a gun. What did this do again?
 
@@ -153,10 +153,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="406">YES</temporary>
     <children>
-      <child nodeId="node-0x1baf8e0" />
+      <child nodeId="node-0x6c620b0" />
     </children>
   </item>
-  <item nodeId="node-0x1baf8e0">
+  <item nodeId="node-0x6c620b0">
     <command xml:space="preserve">shoot wall</command>
     <result xml:space="preserve">You stick up your thumb and point your index finger at your target. &quot;Pew!&quot; you say under your breath as you flick your wrist, pretending to shoot. Unfortunately you aren&apos;t shooting WITH something, so your hand and imagination will do.
 
@@ -165,10 +165,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="406">YES</temporary>
     <children>
-      <child nodeId="node-0x1baf950" />
+      <child nodeId="node-0x6c62120" />
     </children>
   </item>
-  <item nodeId="node-0x1baf950">
+  <item nodeId="node-0x6c62120">
     <command xml:space="preserve">shoot wall with contraption</command>
     <result xml:space="preserve">With a crackle and pop, a portal splits into the wall, creating a doorway to a new room. You wonder where it leads...
 
@@ -177,10 +177,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="406">YES</temporary>
     <children>
-      <child nodeId="node-0x1bafa80" />
+      <child nodeId="node-0x183d080" />
     </children>
   </item>
-  <item nodeId="node-0x1bafa80">
+  <item nodeId="node-0x183d080">
     <command xml:space="preserve">go through portal</command>
     <result xml:space="preserve">You can&apos;t bear to leave your cute robot friend behind. Maybe turn it on so it can follow you, or pick it up and take it with you?
 
@@ -189,10 +189,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="406">YES</temporary>
     <children>
-      <child nodeId="node-0x1baf770" />
+      <child nodeId="node-0x6c62270" />
     </children>
   </item>
-  <item nodeId="node-0x1baf770">
+  <item nodeId="node-0x6c62270">
     <command xml:space="preserve">turn on robot</command>
     <result xml:space="preserve">The metal creaks and bends under the pressure of the blades pressing against it. Turning it on right now doesn&apos;t seem like a good idea.
 
@@ -201,10 +201,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="406">YES</temporary>
     <children>
-      <child nodeId="node-0x1bafaf0" />
+      <child nodeId="node-0x6c622c0" />
     </children>
   </item>
-  <item nodeId="node-0x1bafaf0">
+  <item nodeId="node-0x6c622c0">
     <command xml:space="preserve">take robot</command>
     <result xml:space="preserve">Taken.
 
@@ -213,20 +213,20 @@ Taken.
     <changed>NO</changed>
     <temporary score="406">YES</temporary>
     <children>
-      <child nodeId="node-0x1bafb60" />
+      <child nodeId="node-0x6c62310" />
     </children>
   </item>
-  <item nodeId="node-0x1bafb60">
+  <item nodeId="node-0x6c62310">
     <command xml:space="preserve">go through portal</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="406">YES</temporary>
     <children>
-      <child nodeId="node-0x1bafbd0" />
+      <child nodeId="node-0x6c62380" />
     </children>
   </item>
-  <item nodeId="node-0x1bafbd0">
+  <item nodeId="node-0x6c62380">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">White Room
 A blank, white room with a large fan as a floor. A wind tunnel, perhaps? The fan circulates air upwards. 
@@ -238,7 +238,7 @@ You can see Portal (empty) here.
     <changed>NO</changed>
     <temporary score="405">YES</temporary>
   </item>
-  <item nodeId="node-0x1bafc40">
+  <item nodeId="node-0x6c623f0">
     <command xml:space="preserve">take robot</command>
     <result xml:space="preserve">Taken.
 
@@ -248,29 +248,31 @@ You can see Portal (empty) here.
 &gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="531">NO</temporary>
+    <temporary score="53">NO</temporary>
     <children>
-      <child nodeId="node-0x1bb0cb0" />
-      <child nodeId="node-0x1bb09a0" />
-      <child nodeId="node-0x1bb08c0" />
-      <child nodeId="node-0x1bb0140" />
-      <child nodeId="node-0x1bafcb0" />
+      <child nodeId="node-0x6c63150" />
+      <child nodeId="node-0x6c63070" />
+      <child nodeId="node-0x6c628f0" />
+      <child nodeId="node-0x6c62460" />
     </children>
   </item>
-  <item nodeId="node-0x1bafcb0">
+  <item nodeId="node-0x6c62460">
     <command xml:space="preserve">put robot in fan</command>
     <result xml:space="preserve">You put Robot into Fan.
 
 &gt;</result>
+    <commentary xml:space="preserve">You put Robot into Fan.
+
+&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="420">NO</temporary>
+    <temporary score="49">NO</temporary>
     <children>
-      <child nodeId="node-0x1bb0060" />
-      <child nodeId="node-0x1bafd20" />
+      <child nodeId="node-0x6c62810" />
+      <child nodeId="node-0x6c624d0" />
     </children>
   </item>
-  <item nodeId="node-0x1bafd20">
+  <item nodeId="node-0x6c624d0">
     <command xml:space="preserve">get contraption</command>
     <result xml:space="preserve">You manage to safely retrieve your contraption. Upon closer inspection you note it looks rather similar to a gun. What did this do again?
 
@@ -281,10 +283,10 @@ Taken.
     <changed>YES</changed>
     <temporary score="420">YES</temporary>
     <children>
-      <child nodeId="node-0x1baf9c0" />
+      <child nodeId="node-0x6c62190" />
     </children>
   </item>
-  <item nodeId="node-0x1baf9c0">
+  <item nodeId="node-0x6c62190">
     <command xml:space="preserve"> put robot in fan</command>
     <result xml:space="preserve">(first taking Robot)
 
@@ -295,10 +297,10 @@ You put Robot into Fan.
     <changed>YES</changed>
     <temporary score="420">YES</temporary>
     <children>
-      <child nodeId="node-0x1bafa10" />
+      <child nodeId="node-0x6c621e0" />
     </children>
   </item>
-  <item nodeId="node-0x1bafa10">
+  <item nodeId="node-0x6c621e0">
     <command xml:space="preserve">shoot wall with contraption</command>
     <result xml:space="preserve">With a crackle and pop, a portal splits into the wall, creating a doorway to a new room. You wonder where it leads...
 
@@ -307,10 +309,10 @@ You put Robot into Fan.
     <changed>YES</changed>
     <temporary score="420">YES</temporary>
     <children>
-      <child nodeId="node-0x1baff10" />
+      <child nodeId="node-0x6c626c0" />
     </children>
   </item>
-  <item nodeId="node-0x1baff10">
+  <item nodeId="node-0x6c626c0">
     <command xml:space="preserve">go through portal</command>
     <result xml:space="preserve">You can&apos;t bear to leave your cute robot friend behind. Maybe turn it on so it can follow you, or pick it up and take it with you?
 
@@ -319,10 +321,10 @@ You put Robot into Fan.
     <changed>YES</changed>
     <temporary score="420">YES</temporary>
     <children>
-      <child nodeId="node-0x1baff80" />
+      <child nodeId="node-0x6c62730" />
     </children>
   </item>
-  <item nodeId="node-0x1baff80">
+  <item nodeId="node-0x6c62730">
     <command xml:space="preserve">take robot</command>
     <result xml:space="preserve">Taken.
 
@@ -331,17 +333,17 @@ You put Robot into Fan.
     <changed>YES</changed>
     <temporary score="420">YES</temporary>
     <children>
-      <child nodeId="node-0x1bafff0" />
+      <child nodeId="node-0x6c627a0" />
     </children>
   </item>
-  <item nodeId="node-0x1bafff0">
+  <item nodeId="node-0x6c627a0">
     <command xml:space="preserve">go through portal</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="419">YES</temporary>
   </item>
-  <item nodeId="node-0x1bb0060">
+  <item nodeId="node-0x6c62810">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.
 
@@ -350,10 +352,10 @@ You put Robot into Fan.
     <changed>YES</changed>
     <temporary score="60">NO</temporary>
     <children>
-      <child nodeId="node-0x1bb00d0" />
+      <child nodeId="node-0x6c62880" />
     </children>
   </item>
-  <item nodeId="node-0x1bb00d0">
+  <item nodeId="node-0x6c62880">
     <command xml:space="preserve">take contraption</command>
     <result xml:space="preserve">woo hoo you took the gun and still have your hand
 You already have that.
@@ -367,7 +369,7 @@ You already have that.
     <changed>YES</changed>
     <temporary score="60">NO</temporary>
   </item>
-  <item nodeId="node-0x1bb0140">
+  <item nodeId="node-0x6c628f0">
     <command xml:space="preserve">put robot in dan</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -376,10 +378,10 @@ You already have that.
     <changed>NO</changed>
     <temporary score="496">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb01b0" />
+      <child nodeId="node-0x6c62960" />
     </children>
   </item>
-  <item nodeId="node-0x1bb01b0">
+  <item nodeId="node-0x6c62960">
     <command xml:space="preserve">put robot in fan</command>
     <result xml:space="preserve">You put Robot into Fan.
 
@@ -388,10 +390,10 @@ You already have that.
     <changed>NO</changed>
     <temporary score="496">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb0220" />
+      <child nodeId="node-0x6c629d0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0220">
+  <item nodeId="node-0x6c629d0">
     <command xml:space="preserve">take contraption</command>
     <result xml:space="preserve">You manage to safely retrieve your contraption. Upon closer inspection you note it looks rather similar to a gun. What did this do again?
 
@@ -402,10 +404,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="496">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb0290" />
+      <child nodeId="node-0x6c62a40" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0290">
+  <item nodeId="node-0x6c62a40">
     <command xml:space="preserve">shoot wall</command>
     <result xml:space="preserve">You stick up your thumb and point your index finger at your target. &quot;Pew!&quot; you say under your breath as you flick your wrist, pretending to shoot. Unfortunately you aren&apos;t shooting WITH something, so your hand and imagination will do.
 
@@ -414,10 +416,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="496">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb0300" />
+      <child nodeId="node-0x6c62ab0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0300">
+  <item nodeId="node-0x6c62ab0">
     <command xml:space="preserve">enter portal</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -426,10 +428,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="496">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb0370" />
+      <child nodeId="node-0x6c62b20" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0370">
+  <item nodeId="node-0x6c62b20">
     <command xml:space="preserve">shoot wall with gun</command>
     <result xml:space="preserve">With a crackle and pop, a portal splits into the wall, creating a doorway to a new room. You wonder where it leads...
 
@@ -438,10 +440,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="496">YES</temporary>
     <children>
-      <child nodeId="node-0x1bafd90" />
+      <child nodeId="node-0x6c62540" />
     </children>
   </item>
-  <item nodeId="node-0x1bafd90">
+  <item nodeId="node-0x6c62540">
     <command xml:space="preserve">enter</command>
     <result xml:space="preserve">You can&apos;t bear to leave your cute robot friend behind. Maybe turn it on so it can follow you, or pick it up and take it with you?
 
@@ -450,10 +452,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="496">YES</temporary>
     <children>
-      <child nodeId="node-0x1bafe00" />
+      <child nodeId="node-0x6c625b0" />
     </children>
   </item>
-  <item nodeId="node-0x1bafe00">
+  <item nodeId="node-0x6c625b0">
     <command xml:space="preserve">portal</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -462,10 +464,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="496">YES</temporary>
     <children>
-      <child nodeId="node-0x1bafe70" />
+      <child nodeId="node-0x6c62620" />
     </children>
   </item>
-  <item nodeId="node-0x1bafe70">
+  <item nodeId="node-0x6c62620">
     <command xml:space="preserve">take robot</command>
     <result xml:space="preserve">Taken.
 
@@ -474,10 +476,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="496">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb0620" />
+      <child nodeId="node-0x6c62dd0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0620">
+  <item nodeId="node-0x6c62dd0">
     <command xml:space="preserve">enter portal</command>
     <result xml:space="preserve">You step through the portal into a new room.
 
@@ -491,10 +493,10 @@ You can see Desks (in which is Papers) here.
     <changed>YES</changed>
     <temporary score="496">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb0690" />
+      <child nodeId="node-0x6c62e40" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0690">
+  <item nodeId="node-0x6c62e40">
     <command xml:space="preserve">take blankets</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -503,10 +505,10 @@ You can see Desks (in which is Papers) here.
     <changed>YES</changed>
     <temporary score="496">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb0700" />
+      <child nodeId="node-0x6c62eb0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0700">
+  <item nodeId="node-0x6c62eb0">
     <command xml:space="preserve">shoot wall with gun</command>
     <result xml:space="preserve">With a crackle and pop, a portal splits into the wall, creating a doorway to a new room. You wonder where it leads...
 
@@ -515,10 +517,10 @@ You can see Desks (in which is Papers) here.
     <changed>NO</changed>
     <temporary score="496">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb0770" />
+      <child nodeId="node-0x6c62f20" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0770">
+  <item nodeId="node-0x6c62f20">
     <command xml:space="preserve">go through portal</command>
     <result xml:space="preserve">You step through the portal into a new room.
 
@@ -532,10 +534,10 @@ You can see Portal (empty) and Desks (in which is Papers) here.
     <changed>YES</changed>
     <temporary score="496">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb07e0" />
+      <child nodeId="node-0x6c62f90" />
     </children>
   </item>
-  <item nodeId="node-0x1bb07e0">
+  <item nodeId="node-0x6c62f90">
     <command xml:space="preserve">put robot in circuit board</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -544,10 +546,10 @@ You can see Portal (empty) and Desks (in which is Papers) here.
     <changed>YES</changed>
     <temporary score="496">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb0850" />
+      <child nodeId="node-0x6c63000" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0850">
+  <item nodeId="node-0x6c63000">
     <command xml:space="preserve">open circuit board</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -556,7 +558,7 @@ You can see Portal (empty) and Desks (in which is Papers) here.
     <changed>YES</changed>
     <temporary score="495">YES</temporary>
   </item>
-  <item nodeId="node-0x1bb08c0">
+  <item nodeId="node-0x6c63070">
     <command xml:space="preserve">stop fan with robot</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -565,10 +567,10 @@ You can see Portal (empty) and Desks (in which is Papers) here.
     <changed>YES</changed>
     <temporary score="295">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb0930" />
+      <child nodeId="node-0x6c630e0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0930">
+  <item nodeId="node-0x6c630e0">
     <command xml:space="preserve">use robot to stop fan</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -577,93 +579,7 @@ You can see Portal (empty) and Desks (in which is Papers) here.
     <changed>YES</changed>
     <temporary score="294">YES</temporary>
   </item>
-  <item nodeId="node-0x1bb09a0">
-    <command xml:space="preserve">wear teleport</command>
-    <result xml:space="preserve">Work Shop
-Ah, yeah. Your workshop. The large table is covered in metal shavings and large chunks of materials. On the left wall is a large metal panel labeled &quot;CIRCUIT BOARD&quot; in big red letters, and &quot;danger&quot; in small green ones below that. You may or may not have messed up on labeling it.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="531">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bb0c40" />
-      <child nodeId="node-0x1bb0b60" />
-      <child nodeId="node-0x1bb0a10" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bb0a10">
-    <command xml:space="preserve">put robot on circuit board</command>
-    <result xml:space="preserve">it agrees to be plugged into the circuit board. You hook the robot up to the panel and set it down in the indentation. The robot points to &quot;White Room Fan&quot; and you plug the wires in. A loud woosh sound. The robot&apos;s display goes dark as the power is sucked from its batteries into the fan&apos;s power source. A loud crash sound. You think the top blew off. time to go.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="531">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bb0a80" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bb0a80">
-    <command xml:space="preserve">wear parachute</command>
-    <result xml:space="preserve">You put on parachute pack.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="531">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bb0af0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bb0af0">
-    <command xml:space="preserve">wear bottle</command>
-    <result xml:space="preserve">White Room
-A blank, white room with a large fan as a floor.  The fan circulates at an incredible speed, so fast that the roof has been blown right off.Something glints beneath the whirling blades. Also, you can see your little robot buddy here. You made it yourself!
-
-
-
-    *** wow what a cool kid!!! ***
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="530">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bb0b60">
-    <command xml:space="preserve">put robot in Circuit Board</command>
-    <result xml:space="preserve">That can&apos;t contain things.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="514">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bb0bd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bb0bd0">
-    <command xml:space="preserve">put robot on Circuit Board</command>
-    <result xml:space="preserve">BMO is all like naw frick dat noise and refuses to be plugged into the circuit board.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="513">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bb0c40">
-    <command xml:space="preserve">put robot on Circuit Board</command>
-    <result xml:space="preserve">it agrees to be plugged into the circuit board. You hook the robot up to the panel and set it down in the indentation. The robot points to &quot;White Room Fan&quot; and you plug the wires in. A loud woosh sound. The robot&apos;s display goes dark as the power is sucked from its batteries into the fan&apos;s power source. A loud crash sound. You think the top blew off. time to go.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="516">YES</temporary>
-  </item>
-  <item nodeId="node-0x1bb0cb0">
+  <item nodeId="node-0x6c63150">
     <command xml:space="preserve">turn robot on</command>
     <result xml:space="preserve">You hear a quiet hum as the robot powers on, followed by some quiet clicks, and the display on the screen changes to show a cute (*ﾟｰﾟ)ゞ .
 
@@ -672,10 +588,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="282">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb0d20" />
+      <child nodeId="node-0x6c631c0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0d20">
+  <item nodeId="node-0x6c631c0">
     <command xml:space="preserve">put robot in fan</command>
     <result xml:space="preserve">You put Robot into Fan.
 
@@ -686,10 +602,10 @@ The robot beeps angrily at you.
     <changed>NO</changed>
     <temporary score="282">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb03e0" />
+      <child nodeId="node-0x6c63230" />
     </children>
   </item>
-  <item nodeId="node-0x1bb03e0">
+  <item nodeId="node-0x6c63230">
     <command xml:space="preserve">take contraption</command>
     <result xml:space="preserve">You manage to safely retrieve your contraption. Upon closer inspection you note it looks rather similar to a gun. What did this do again?
 
@@ -700,11 +616,11 @@ Taken.
     <changed>NO</changed>
     <temporary score="282">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb0e00" />
-      <child nodeId="node-0x1bb0450" />
+      <child nodeId="node-0x6c634d0" />
+      <child nodeId="node-0x6c632a0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0450">
+  <item nodeId="node-0x6c632a0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   contraption
@@ -715,10 +631,10 @@ Taken.
     <changed>YES</changed>
     <temporary score="282">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb04c0" />
+      <child nodeId="node-0x6c63310" />
     </children>
   </item>
-  <item nodeId="node-0x1bb04c0">
+  <item nodeId="node-0x6c63310">
     <command xml:space="preserve">drop shell</command>
     <result xml:space="preserve">Dropped.
 
@@ -727,10 +643,10 @@ Taken.
     <changed>YES</changed>
     <temporary score="282">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb0530" />
+      <child nodeId="node-0x6c63380" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0530">
+  <item nodeId="node-0x6c63380">
     <command xml:space="preserve">take shell</command>
     <result xml:space="preserve">Taken.
 
@@ -739,10 +655,10 @@ Taken.
     <changed>YES</changed>
     <temporary score="282">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb05a0" />
+      <child nodeId="node-0x6c633f0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb05a0">
+  <item nodeId="node-0x6c633f0">
     <command xml:space="preserve">take robot</command>
     <result xml:space="preserve">Taken.
 
@@ -753,10 +669,10 @@ The contraption was taken
     <changed>YES</changed>
     <temporary score="282">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb0d90" />
+      <child nodeId="node-0x6c63460" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0d90">
+  <item nodeId="node-0x6c63460">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Robot
@@ -767,7 +683,7 @@ The contraption was taken
     <changed>YES</changed>
     <temporary score="281">YES</temporary>
   </item>
-  <item nodeId="node-0x1bb0e00">
+  <item nodeId="node-0x6c634d0">
     <command xml:space="preserve">take robot</command>
     <result xml:space="preserve">Taken.
 
@@ -778,7 +694,7 @@ nothing was taken
     <changed>YES</changed>
     <temporary score="273">YES</temporary>
   </item>
-  <item nodeId="node-0x1bb0e70">
+  <item nodeId="node-0x6c62b90">
     <command xml:space="preserve">wear teleport</command>
     <result xml:space="preserve">Work Shop
 Ah, yeah. Your workshop. The large table is covered in metal shavings and large chunks of materials. On the left wall is a large metal panel labeled &quot;CIRCUIT BOARD&quot; in big red letters, and &quot;danger&quot; in small green ones below that. You may or may not have messed up on labeling it.
@@ -788,13 +704,13 @@ Ah, yeah. Your workshop. The large table is covered in metal shavings and large 
     <changed>NO</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb1260" />
-      <child nodeId="node-0x1bb10a0" />
-      <child nodeId="node-0x1bb0f50" />
-      <child nodeId="node-0x1bb0ee0" />
+      <child nodeId="node-0x6c63700" />
+      <child nodeId="node-0x6c63540" />
+      <child nodeId="node-0x6c62c70" />
+      <child nodeId="node-0x6c62c00" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0ee0">
+  <item nodeId="node-0x6c62c00">
     <command xml:space="preserve">put robot in circuit board</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -803,7 +719,7 @@ Ah, yeah. Your workshop. The large table is covered in metal shavings and large 
     <changed>YES</changed>
     <temporary score="504">YES</temporary>
   </item>
-  <item nodeId="node-0x1bb0f50">
+  <item nodeId="node-0x6c62c70">
     <command xml:space="preserve">put robot on circuit board</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -812,10 +728,10 @@ Ah, yeah. Your workshop. The large table is covered in metal shavings and large 
     <changed>YES</changed>
     <temporary score="503">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb0fc0" />
+      <child nodeId="node-0x6c62ce0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb0fc0">
+  <item nodeId="node-0x6c62ce0">
     <command xml:space="preserve">put robot on Circuit Board</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -824,10 +740,10 @@ Ah, yeah. Your workshop. The large table is covered in metal shavings and large 
     <changed>YES</changed>
     <temporary score="503">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb1030" />
+      <child nodeId="node-0x6c62d50" />
     </children>
   </item>
-  <item nodeId="node-0x1bb1030">
+  <item nodeId="node-0x6c62d50">
     <command xml:space="preserve">x Circuit Board</command>
     <result xml:space="preserve">There&apos;s a panel covering the circuit board. You&apos;d have to open the panel to interact with the switches.
 
@@ -836,7 +752,7 @@ Ah, yeah. Your workshop. The large table is covered in metal shavings and large 
     <changed>YES</changed>
     <temporary score="502">YES</temporary>
   </item>
-  <item nodeId="node-0x1bb10a0">
+  <item nodeId="node-0x6c63540">
     <command xml:space="preserve">x Circuit Board</command>
     <result xml:space="preserve">There&apos;s a panel covering the circuit board. You&apos;d have to open the panel to interact with the switches.
 
@@ -845,10 +761,10 @@ Ah, yeah. Your workshop. The large table is covered in metal shavings and large 
     <changed>YES</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb1110" />
+      <child nodeId="node-0x6c635b0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb1110">
+  <item nodeId="node-0x6c635b0">
     <command xml:space="preserve">put robot in circuit board</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -857,10 +773,10 @@ Ah, yeah. Your workshop. The large table is covered in metal shavings and large 
     <changed>YES</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb1180" />
+      <child nodeId="node-0x6c63620" />
     </children>
   </item>
-  <item nodeId="node-0x1bb1180">
+  <item nodeId="node-0x6c63620">
     <command xml:space="preserve">take Circuit Board</command>
     <result xml:space="preserve">That&apos;s fixed in place.
 
@@ -869,10 +785,10 @@ Ah, yeah. Your workshop. The large table is covered in metal shavings and large 
     <changed>YES</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb11f0" />
+      <child nodeId="node-0x6c63690" />
     </children>
   </item>
-  <item nodeId="node-0x1bb11f0">
+  <item nodeId="node-0x6c63690">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Shell
@@ -883,7 +799,7 @@ Ah, yeah. Your workshop. The large table is covered in metal shavings and large 
     <changed>YES</changed>
     <temporary score="509">YES</temporary>
   </item>
-  <item nodeId="node-0x1bb1260">
+  <item nodeId="node-0x6c63700">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -892,7 +808,7 @@ Ah, yeah. Your workshop. The large table is covered in metal shavings and large 
     <changed>YES</changed>
     <temporary score="497">YES</temporary>
   </item>
-  <item nodeId="node-0x1bb12d0">
+  <item nodeId="node-0x6c63770">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Shell
@@ -905,10 +821,10 @@ Ah, yeah. Your workshop. The large table is covered in metal shavings and large 
     <changed>YES</changed>
     <temporary score="526">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb1340" />
+      <child nodeId="node-0x6c637e0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb1340">
+  <item nodeId="node-0x6c637e0">
     <command xml:space="preserve">take robot</command>
     <result xml:space="preserve">Taken.
 
@@ -917,10 +833,10 @@ Ah, yeah. Your workshop. The large table is covered in metal shavings and large 
     <changed>YES</changed>
     <temporary score="526">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb13b0" />
+      <child nodeId="node-0x6c63850" />
     </children>
   </item>
-  <item nodeId="node-0x1bb13b0">
+  <item nodeId="node-0x6c63850">
     <command xml:space="preserve">wear teleport</command>
     <result xml:space="preserve">Work Shop
 Ah, yeah. Your workshop. The large table is covered in metal shavings and large chunks of materials. On the left wall is a large metal panel labeled &quot;CIRCUIT BOARD&quot; in big red letters, and &quot;danger&quot; in small green ones below that. You may or may not have messed up on labeling it.
@@ -930,10 +846,10 @@ Ah, yeah. Your workshop. The large table is covered in metal shavings and large 
     <changed>YES</changed>
     <temporary score="526">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb1420" />
+      <child nodeId="node-0x6c638c0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb1420">
+  <item nodeId="node-0x6c638c0">
     <command xml:space="preserve">put robot on circuit board</command>
     <result xml:space="preserve">it agrees to be plugged into the circuit board. You hook the robot up to the panel and set it down in the indentation. The robot points to &quot;White Room Fan&quot; and you plug the wires in. A loud woosh sound. The robot&apos;s display goes dark as the power is sucked from its batteries into the fan&apos;s power source. A loud crash sound. You think the top blew off. time to go.
 
@@ -942,10 +858,10 @@ Ah, yeah. Your workshop. The large table is covered in metal shavings and large 
     <changed>YES</changed>
     <temporary score="526">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb1490" />
+      <child nodeId="node-0x6c63930" />
     </children>
   </item>
-  <item nodeId="node-0x1bb1490">
+  <item nodeId="node-0x6c63930">
     <command xml:space="preserve">wear bottle</command>
     <result xml:space="preserve">White Room
 A blank, white room with a large fan as a floor.  The fan circulates at an incredible speed, so fast that the roof has been blown right off.Something glints beneath the whirling blades. Also, you can see your little robot buddy here. You made it yourself!
@@ -962,10 +878,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="526">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb1500" />
+      <child nodeId="node-0x6c639a0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb1500">
+  <item nodeId="node-0x6c639a0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Work Shop
 [Previous turn undone.]
@@ -975,10 +891,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="526">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb1570" />
+      <child nodeId="node-0x6c63a10" />
     </children>
   </item>
-  <item nodeId="node-0x1bb1570">
+  <item nodeId="node-0x6c63a10">
     <command xml:space="preserve">wear parachute</command>
     <result xml:space="preserve">You can&apos;t wear that!
 
@@ -987,7 +903,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="525">YES</temporary>
   </item>
-  <item nodeId="node-0x1bb15e0">
+  <item nodeId="node-0x6c63a80">
     <command xml:space="preserve">turn robot on</command>
     <result xml:space="preserve">You hear a quiet hum as the robot powers on, followed by some quiet clicks, and the display on the screen changes to show a cute (*ﾟｰﾟ)ゞ .
 
@@ -1003,10 +919,10 @@ The robotbeeps quietly to itself, and looks around the room.
     <changed>NO</changed>
     <temporary score="292">NO</temporary>
     <children>
-      <child nodeId="node-0x1bb1650" />
+      <child nodeId="node-0x6c63af0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb1650">
+  <item nodeId="node-0x6c63af0">
     <command xml:space="preserve">take robot</command>
     <result xml:space="preserve">Taken.
 
@@ -1015,10 +931,10 @@ The robotbeeps quietly to itself, and looks around the room.
     <changed>NO</changed>
     <temporary score="292">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb16c0" />
+      <child nodeId="node-0x6c63b60" />
     </children>
   </item>
-  <item nodeId="node-0x1bb16c0">
+  <item nodeId="node-0x6c63b60">
     <command xml:space="preserve">put robot in fan</command>
     <result xml:space="preserve">You put Robot into Fan.
 
@@ -1029,10 +945,10 @@ The robot beeps angrily at you.
     <changed>YES</changed>
     <temporary score="292">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb1730" />
+      <child nodeId="node-0x6c63bd0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb1730">
+  <item nodeId="node-0x6c63bd0">
     <command xml:space="preserve">take contraption</command>
     <result xml:space="preserve">You manage to safely retrieve your contraption. Upon closer inspection you note it looks rather similar to a gun. What did this do again?
 
@@ -1043,10 +959,10 @@ Taken.
     <changed>NO</changed>
     <temporary score="292">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb17a0" />
+      <child nodeId="node-0x6c63c40" />
     </children>
   </item>
-  <item nodeId="node-0x1bb17a0">
+  <item nodeId="node-0x6c63c40">
     <command xml:space="preserve">drop shell</command>
     <result xml:space="preserve">Dropped.
 
@@ -1055,10 +971,10 @@ Taken.
     <changed>YES</changed>
     <temporary score="292">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb1810" />
+      <child nodeId="node-0x6c63cb0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb1810">
+  <item nodeId="node-0x6c63cb0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   contraption
@@ -1068,10 +984,10 @@ Taken.
     <changed>YES</changed>
     <temporary score="292">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb1880" />
+      <child nodeId="node-0x6c63d20" />
     </children>
   </item>
-  <item nodeId="node-0x1bb1880">
+  <item nodeId="node-0x6c63d20">
     <command xml:space="preserve">drop contraption</command>
     <result xml:space="preserve">Dropped.
 
@@ -1080,10 +996,10 @@ Taken.
     <changed>YES</changed>
     <temporary score="292">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb18f0" />
+      <child nodeId="node-0x6c63d90" />
     </children>
   </item>
-  <item nodeId="node-0x1bb18f0">
+  <item nodeId="node-0x6c63d90">
     <command xml:space="preserve">take robot</command>
     <result xml:space="preserve">Taken.
 
@@ -1092,10 +1008,10 @@ Taken.
     <changed>YES</changed>
     <temporary score="292">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb1960" />
+      <child nodeId="node-0x6c63e00" />
     </children>
   </item>
-  <item nodeId="node-0x1bb1960">
+  <item nodeId="node-0x6c63e00">
     <command xml:space="preserve">take shell</command>
     <result xml:space="preserve">Taken.
 
@@ -1104,10 +1020,10 @@ Taken.
     <changed>YES</changed>
     <temporary score="292">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb19d0" />
+      <child nodeId="node-0x6c63e70" />
     </children>
   </item>
-  <item nodeId="node-0x1bb19d0">
+  <item nodeId="node-0x6c63e70">
     <command xml:space="preserve">take contraption</command>
     <result xml:space="preserve">You&apos;re kind of bleeding now...
 
